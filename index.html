@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solarex | Sustainable Solar Energy Solutions</title>
+    <meta name="description" content="Empowering homes and businesses with premium, efficient solar energy solutions for a sustainable future." />
+    
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="solar.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300..900;1,300..900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation Header -->
+    <header class="site-header" id="siteHeader">
+      <div class="navbar-container container">
+        <a href="#home" class="logo" aria-label="Solarex Home">
+          <img src="images/logo-black.png" alt="Solarex Logo" />
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Clean Navigation Links -->
+        <nav id="navbar" role="navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About Us</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="#blog" class="nav-link">Blog & News</a>
+          <a href="#contact" class="nav-link">Contact</a>
+
+          <div class="help-widget">
+            <i class="fa-solid fa-headset" aria-hidden="true"></i>
+            <div class="help-text">
+              <span>Need Assistance?</span>
+              <a href="tel:3075550133" class="phone-num">(307) 555-0133</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section" id="home">
+        <div class="container">
+          <div class="box-perent">
+            <div class="left">
+              <!-- Text Section -->
+              <div class="solar-text-box" data-aos="fade-up">
+                <span class="subtitle"><i class="fa-solid fa-bolt"></i> Clean Energy Future</span>
+                <h1 class="main-title">
+                  Power For A <span class="green">Sustainable Future</span> with <span class="green">Solar Energy</span>
+                </h1>
+                <p class="description">
+                  Harness high-efficiency photovoltaic technology engineered to reduce energy costs by up to 70% while powering homes and businesses with clean, renewable energy.
+                </p>
+                <div class="hero-actions">
+                  <a href="#services" class="srex-btn srex-btn--outline">Discover More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                  <a href="#contact" class="srex-btn">Get Free Quote <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></a>
+                </div>
+              </div>
+
+              <div class="main-box">
+                <!-- Efficiency Card -->
+                <div class="solar-efficiency" data-aos="fade-up" data-aos-delay="100">
+                  <div class="efficiency-icon-wrap"><i class="fa-solid fa-leaf"></i></div>
+                  <h2>70%</h2>
+                  <p>Energy Efficient</p>
+                </div>
+
+                <!-- Hero Bottom Image -->
+                <div class="solar-panel-image" data-aos="fade-up" data-aos-delay="200">
+                  <img src="images/hero-img-1.png" alt="Solar panel technicians inspecting installation" loading="lazy" />
+                </div>
+              </div>
+            </div>
+
+            <div class="Right">
+              <!-- Main Hero Image -->
+              <div class="solar-main-image" data-aos="fade-left">
+                <img src="images/hero-img-2.png" alt="Solar engineer with clean energy panel array" loading="lazy" />
+                <div class="experience-float-badge">
+                  <i class="fa-solid fa-award"></i>
+                  <div>
+                    <strong>15+ Years</strong>
+                    <span>Industry Excellence</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services-section" id="services">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <span class="subtitle"><i class="fa-solid fa-lightbulb"></i> Our Services</span>
+            <h2 class="main-title">Unlock the Potential of the Sun with Solar Energy</h2>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card" data-aos="fade-up">
+              <div class="icon-number">
+                <div class="img-box">
+                  <img src="images/service-1.svg" alt="PowerSun Icon" class="icon" />
+                </div>
+                <span class="number">01</span>
+              </div>
+              <h3>PowerSun Assistance</h3>
+              <p class="description">Complete residential and commercial rooftop solar installation with smart grid telemetry.</p>
+              <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon-number">
+                <div class="img-box">
+                  <img src="images/service-2.svg" alt="SolarEdge Icon" class="icon" />
+                </div>
+                <span class="number">02</span>
+              </div>
+              <h3>SolarEdge Services</h3>
+              <p class="description">High-yield inverter systems optimized for maximum energy conversion and reliability.</p>
+              <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon-number">
+                <div class="img-box">
+                  <img src="images/service-3.svg" alt="BrightSun Icon" class="icon" />
+                </div>
+                <span class="number">03</span>
+              </div>
+              <h3>BrightSun Support</h3>
+              <p class="description">24/7 solar grid maintenance, rapid response repairs, and panel performance optimization.</p>
+              <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon-number">
+                <div class="img-box">
+                  <img src="images/service-4.svg" alt="Sun Gust Icon" class="icon" />
+                </div>
+                <span class="number">04</span>
+              </div>
+              <h3>Sun Gust Energy</h3>
+              <p class="description">Off-grid battery storage solutions guaranteeing uninterrupted zero-emission power supply.</p>
+              <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon-number">
+                <div class="img-box">
+                  <img src="images/service-5.svg" alt="WindVista Icon" class="icon" />
+                </div>
+                <span class="number">05</span>
+              </div>
+              <h3>WindVista Solutions</h3>
+              <p class="description">Hybrid solar and micro-wind energy systems engineered for maximum annual power output.</p>
+              <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+              <div class="icon-number">
+                <div class="img-box">
+                  <img src="images/service-6.svg" alt="SolarCrest Icon" class="icon" />
+                </div>
+                <span class="number">06</span>
+              </div>
+              <h3>SolarCrest Services</h3>
+              <p class="description">Enterprise energy audits, sustainability consulting, and custom solar microgrids.</p>
+              <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-wrapper" id="about">
+        <div class="container">
+          <div class="about-section right-image">
+            <div class="content" data-aos="fade-right">
+              <span class="subtitle"><i class="fa-solid fa-circle-info"></i> About Us</span>
+              <h2 class="main-title">Embrace The Power of the Sun With Solar Energy</h2>
+              <p class="description">
+                Solarex is an industry leader in renewable energy innovation. We combine world-class engineering, high-efficiency solar technology, and seamless installation to deliver clean energy independence.
+              </p>
+              <ul class="features">
+                <li>Redefining Energy with Advanced Solar Technology</li>
+                <li>Unleash the Power of the Sun for Home & Business</li>
+                <li>Engineered Solar Solutions for a Brighter Tomorrow</li>
+              </ul>
+              <a href="#contact" class="srex-btn">Learn More <i class="fa-solid fa-plus" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="image-box" data-aos="fade-left">
+              <img src="images/about-us.png" alt="Solar panel technician installing panels" loading="lazy" />
+              <div class="experience-badge">
+                <div class="badge-icon">🏅</div>
+                <div>
+                  <div class="years">15+</div>
+                  <div class="text">Years of Experience</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-section left-image">
+            <div class="image-box" data-aos="fade-right">
+              <img src="images/about-us-bottom.png?v=2" alt="Solar energy technician inspecting rooftop installation" loading="lazy" />
+            </div>
+            <div class="content" data-aos="fade-left">
+              <h2 class="main-title">Sun-Powered Solutions for a Sustainable Future</h2>
+              <p class="description">
+                Our team delivers end-to-end solar array design, smart inverter integration, and ongoing grid optimization tailored to your power needs.
+              </p>
+              <ul class="about-info-list">
+                <li>
+                  <h3><i class="fa-solid fa-sun green"></i> Sunshine Energy Systems</h3>
+                  <p class="description">Optimized solar collection arrays providing maximum output even in low-light conditions.</p>
+                </li>
+                <li>
+                  <h3><i class="fa-solid fa-chart-line green"></i> Solar Grid Efficiency</h3>
+                  <p class="description">Smart power distribution units that lower grid dependency and boost energy ROI.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="energy-section" id="features">
+        <div class="container">
+          <div class="energy-main">
+            <div class="energy-content" data-aos="fade-right">
+              <span class="subtitle"><i class="fa-solid fa-sliders"></i> Key Features</span>
+              <h2 class="main-title">
+                Harness the Power of the Sun with High-Performance Solar Technology
+              </h2>
+              <p class="description">
+                Discover why top enterprises and homeowners trust Solarex for reliable clean energy systems engineered for maximum efficiency, long-term durability, and seamless smart grid control.
+              </p>
+              <div style="margin-top: 2rem;">
+                <a href="#contact" class="srex-btn">Explore Features <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+
+            <div class="service-cards-grid">
+              <div class="service-card-item" data-aos="fade-up">
+                <div class="icon-box">
+                  <img src="images/features-1.svg" alt="GreenSun Icon" class="service-icon" />
+                </div>
+                <h3 class="service-title">GreenSun Support</h3>
+                <p class="service-para">Eco-conscious power management with zero carbon emission tracking.</p>
+                <a href="#contact" class="read-more">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+
+              <div class="service-card-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box">
+                  <img src="images/features-2.svg" alt="BrightSun Icon" class="service-icon" />
+                </div>
+                <h3 class="service-title">BrightSun Storage</h3>
+                <p class="service-para">High-capacity battery backup ensuring unbroken power day and night.</p>
+                <a href="#contact" class="read-more">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+
+              <div class="service-card-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <img src="images/features-3.svg" alt="SolarPro Icon" class="service-icon" />
+                </div>
+                <h3 class="service-title">SolarPro Analytics</h3>
+                <p class="service-para">Real-time mobile energy telemetry and automated diagnostics.</p>
+                <a href="#contact" class="read-more">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+
+              <div class="service-card-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <img src="images/features-4.svg" alt="EcoSolar Icon" class="service-icon" />
+                </div>
+                <h3 class="service-title">EcoSolar Protection</h3>
+                <p class="service-para">Weather-resistant glass and surge protection for peak weather resilience.</p>
+                <a href="#contact" class="read-more">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects-section" id="projects">
+        <div class="container">
+          <div class="solar-header" data-aos="fade-up">
+            <div>
+              <span class="subtitle"><i class="fa-solid fa-folder-open"></i> Projects & Case Studies</span>
+              <h2 class="main-title">Shine Brighter with Solarex Innovation</h2>
+            </div>
+            <a href="#contact" class="srex-btn srex-btn--outline">
+              View Projects <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="solar-card-wrapper">
+            <div class="solar-card" data-aos="fade-up">
+              <div class="card-img-wrapper">
+                <img src="images/blog-1.png" alt="Commercial Solar Installation Project" loading="lazy" />
+                <div class="project-overlay">
+                  <div class="tech-stack">
+                    <span class="tech-badge">Solar Array</span>
+                    <span class="tech-badge">IoT Telemetry</span>
+                  </div>
+                </div>
+              </div>
+              <div class="solar-card-content">
+                <div class="solar-card-icons">
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+                    <span>2025</span>
+                  </div>
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-building" aria-hidden="true"></i>
+                    <span>Commercial</span>
+                  </div>
+                </div>
+                <h3>75kW Commercial Industrial Solar Grid Installation</h3>
+                <p class="description">Designed and commissioned a full-scale solar farm for an enterprise plant, lowering electricity costs by 72%.</p>
+                <div class="project-actions">
+                  <a href="#contact" class="btn-project btn-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="solar-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="card-img-wrapper">
+                <img src="images/blog-2.png" alt="Smart Residential Solar Microgrid" loading="lazy" />
+                <div class="project-overlay">
+                  <div class="tech-stack">
+                    <span class="tech-badge">Residential</span>
+                    <span class="tech-badge">Battery Storage</span>
+                  </div>
+                </div>
+              </div>
+              <div class="solar-card-content">
+                <div class="solar-card-icons">
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+                    <span>2025</span>
+                  </div>
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-house" aria-hidden="true"></i>
+                    <span>Residential</span>
+                  </div>
+                </div>
+                <h3>Smart Residential Zero-Emission Battery Storage System</h3>
+                <p class="description">Integrated lithium battery storage with roof-mounted photovoltaic cells for off-grid power security.</p>
+                <div class="project-actions">
+                  <a href="#contact" class="btn-project btn-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="solar-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="card-img-wrapper">
+                <img src="images/blog-3.png" alt="Agricultural Solar Irrigation System" loading="lazy" />
+                <div class="project-overlay">
+                  <div class="tech-stack">
+                    <span class="tech-badge">Agriculture</span>
+                    <span class="tech-badge">Microgrid</span>
+                  </div>
+                </div>
+              </div>
+              <div class="solar-card-content">
+                <div class="solar-card-icons">
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+                    <span>2024</span>
+                  </div>
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-wheat-awn" aria-hidden="true"></i>
+                    <span>Agricultural</span>
+                  </div>
+                </div>
+                <h3>Sun-Powered Agricultural Automated Water Irrigation</h3>
+                <p class="description">High-efficiency solar pump network supplying clean-powered irrigation across 500+ acres of farmlands.</p>
+                <div class="project-actions">
+                  <a href="#contact" class="btn-project btn-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVIEWS & TESTIMONIALS SECTION -->
+      <section class="reviews-section" id="reviews">
+        <div class="container">
+          <div class="section-header text-center" data-aos="fade-up">
+            <span class="subtitle"><i class="fa-solid fa-comments"></i> Client Testimonials</span>
+            <h2 class="main-title">Trusted by Thousands of Happy Customers</h2>
+            <p class="description" style="max-width: 600px; margin: 0 auto;">Read authentic feedback from commercial developers, homeowners, and sustainability directors who chose Solarex.</p>
+          </div>
+
+          <div class="reviews-grid" data-aos="fade-up">
+            <!-- Review 1 -->
+            <div class="review-card">
+              <i class="fa-solid fa-quote-right quote-icon"></i>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="review-text">
+                "Solarex transformed our commercial facility with a 75kW solar array. Their engineering precision, seamless installation, and zero downtime lowered our annual energy costs by 68%!"
+              </p>
+              <div class="review-author">
+                <img src="images/avatar-1.png" alt="Sarah Jenkins" class="review-avatar" />
+                <div class="review-author-info">
+                  <h4>Sarah Jenkins</h4>
+                  <span>Director of Operations • EcoTech Solutions</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-card">
+              <i class="fa-solid fa-quote-right quote-icon"></i>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="review-text">
+                "The smartest investment we've made for our office park. The team delivered ahead of schedule, providing continuous monitoring and stellar post-installation support!"
+              </p>
+              <div class="review-author">
+                <img src="images/avatar-2.png" alt="Marcus Vance" class="review-avatar" />
+                <div class="review-author-info">
+                  <h4>Marcus Vance</h4>
+                  <span>Commercial Property Developer • Vance Group</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card">
+              <i class="fa-solid fa-quote-right quote-icon"></i>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="review-text">
+                "Outstanding service quality, high-yield panels, and impressive energy return. Solarex made our transition to 100% renewable energy effortless and highly profitable."
+              </p>
+              <div class="review-author">
+                <img src="images/avatar-3.png" alt="Elena Rostova" class="review-avatar" />
+                <div class="review-author-info">
+                  <h4>Elena Rostova</h4>
+                  <span>Sustainability Lead • GreenGrid Global</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog & News Section -->
+      <section class="solar-cards-wrapper-section" id="blog">
+        <div class="container">
+          <div class="solar-header" data-aos="fade-up">
+            <div>
+              <span class="subtitle"><i class="fa-solid fa-newspaper"></i> Blog & News</span>
+              <h2 class="main-title">Shine Brighter with Clean Energy News</h2>
+            </div>
+            <a href="#contact" class="srex-btn">More Articles <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="solar-card-wrapper">
+            <div class="solar-card" data-aos="fade-up">
+              <div class="solar-card-img-wrapper">
+                <img src="images/blog-1.png" alt="Solar Technology Innovation" />
+              </div>
+              <div class="solar-card-body">
+                <div class="solar-card-icons">
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>October 19, 2024</span>
+                  </div>
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Admin</span>
+                  </div>
+                </div>
+                <h3>Explore the world like never before travel experience</h3>
+                <a href="#contact" class="read-more" style="margin-top: 20px;">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="solar-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="solar-card-img-wrapper">
+                <img src="images/blog-2.png" alt="Clean Energy Storage" />
+              </div>
+              <div class="solar-card-body">
+                <div class="solar-card-icons">
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>October 19, 2024</span>
+                  </div>
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Admin</span>
+                  </div>
+                </div>
+                <h3>Explore the world like never before travel experience</h3>
+                <a href="#contact" class="read-more" style="margin-top: 20px;">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="solar-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="solar-card-img-wrapper">
+                <img src="images/blog-3.png" alt="Solar Grants and ROI" />
+              </div>
+              <div class="solar-card-body">
+                <div class="solar-card-icons">
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>October 19, 2024</span>
+                  </div>
+                  <div class="solar-icon-box">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Admin</span>
+                  </div>
+                </div>
+                <h3>Explore the world like never before travel experience</h3>
+                <a href="#contact" class="read-more" style="margin-top: 20px;">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section-wrapper" id="contact">
+        <div class="container">
+          <div class="srex-section">
+            <div class="image-box" data-aos="fade-right">
+              <form class="contact-form" id="contactForm" novalidate>
+                <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Send Us a Message</h3>
+                <div class="form-row">
+                  <input type="text" class="form-input" id="firstName" placeholder="First Name *" required aria-label="First Name" />
+                  <input type="text" class="form-input" id="lastName" placeholder="Last Name *" required aria-label="Last Name" />
+                </div>
+                <div class="form-row">
+                  <input type="tel" class="form-input" id="phone" placeholder="Phone Number *" required aria-label="Phone Number" />
+                  <input type="email" class="form-input" id="email" placeholder="Email Address *" required aria-label="Email Address" />
+                </div>
+                <div class="form-row full">
+                  <textarea class="form-input" id="message" placeholder="How can we help with your solar project? *" rows="4" required aria-label="Message"></textarea>
+                </div>
+                <button type="submit" id="submitBtn">
+                  <span>Send Message</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+
+            <div class="content" data-aos="fade-left">
+              <span class="subtitle"><i class="fa-solid fa-envelope"></i> Contact Us</span>
+              <h2 class="main-title">Empowering Communities with Solar Energy</h2>
+              <p class="description" style="margin: 16px 0 24px;">
+                Ready to cut your electricity bills and switch to clean solar power? Speak with our certified engineers for a complimentary solar audit and project proposal.
+              </p>
+              <ul class="Features">
+                <li>
+                  <a href="tel:9435550192"><i class="fa-solid fa-phone"></i> (943) 555-0192</a>
+                </li>
+                <li>
+                  <a href="mailto:Info@Example.Com"><i class="fa-solid fa-envelope"></i> Info@Example.Com</a>
+                </li>
+                <li>
+                  <a href="https://maps.google.com" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> 6391 Elgin St. Celina, 10299</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="solar-footer">
+      <div class="container">
+        <div class="solar-footer-top">
+          <a href="#home" class="logo">
+            <img src="images/logo-black.png" alt="Solarex Logo" style="filter: brightness(0) invert(1);" />
+          </a>
+          <ul class="solar-footer-social">
+            <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="solar-footer-links">
+          <div class="solar-footer-section">
+            <h4>Contact Info</h4>
+            <ul class="solar-footer-contact">
+              <li>
+                <div class="solar-footer-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="solar-footer-text">
+                  <p><a href="tel:+11234567890">+(1) 123 456 7890</a></p>
+                </div>
+              </li>
+              <li>
+                <div class="solar-footer-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="solar-footer-text">
+                  <p>6391 Elgin St. Celina, MN 55337, USA</p>
+                </div>
+              </li>
+              <li>
+                <div class="solar-footer-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="solar-footer-text">
+                  <p><a href="mailto:info@solarex.com">info@solarex.com</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="solar-footer-section">
+            <h4>Quick Links</h4>
+            <ul class="solar-footer-list">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#features">Key Features</a></li>
+              <li><a href="#reviews">Testimonials</a></li>
+              <li><a href="#contact">Contact Support</a></li>
+            </ul>
+          </div>
+
+          <div class="solar-footer-section">
+            <h4>Services</h4>
+            <ul class="solar-footer-list">
+              <li><a href="#services">Solar Grid Assistance</a></li>
+              <li><a href="#services">Battery Energy Storage</a></li>
+              <li><a href="#services">Telemetry Monitoring</a></li>
+              <li><a href="#services">Hybrid Turbines</a></li>
+              <li><a href="#services">ESG Consulting</a></li>
+            </ul>
+          </div>
+
+          <div class="solar-footer-section">
+            <h4>Newsletter</h4>
+            <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+              Subscribe for solar technology updates and green energy insights.
+            </p>
+            <div class="solar-newsletter-box">
+              <form id="newsletterForm" novalidate>
+                <input type="email" id="newsletterEmail" placeholder="Enter your email address..." required aria-label="Newsletter Email" />
+                <button type="submit" class="solar-btn">Subscribe Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="solar-footer-bottom">
+          <p>© 2026 Solarex | All Rights Reserved. Engineered for a Sustainable Future.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JS Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 50
+      });
+    </script>
+    <script src="js.js"></script>
+  </body>
+</html>
