@@ -1,4 +1,4 @@
-﻿# Solarex — Modern Sustainable Solar Energy Solutions
+# Solarex — Modern Sustainable Solar Energy Solutions
 
 ![HTML5](https://img.shields.io/badge/HTML5-2563EB?style=for-the-badge&logo=code&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-2563EB?style=for-the-badge&logo=code&logoColor=white) ![Responsive-Design](https://img.shields.io/badge/Responsive-Design-2563EB?style=for-the-badge&logo=code&logoColor=white) ![Solar-Tech](https://img.shields.io/badge/Solar-Tech-2563EB?style=for-the-badge&logo=code&logoColor=white) ![Clean-UI](https://img.shields.io/badge/Clean-UI-2563EB?style=for-the-badge&logo=code&logoColor=white) ![Modern-Web](https://img.shields.io/badge/Modern-Web-2563EB?style=for-the-badge&logo=code&logoColor=white)
 
@@ -6,7 +6,15 @@
 
 ---
 
-![Solarex — Modern Sustainable Solar Energy Solutions](images/about-us-bottom-fixed.jpg)
+<br>
+
+<div align="center">
+  <kbd>
+    <img src="demo.gif" width="100%" alt="Live Interactive Website Demo" style="border-radius: 10px;">
+  </kbd>
+</div>
+
+<br>
 
 
 ## ✨ Key Highlights & Features
